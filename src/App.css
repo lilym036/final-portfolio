@@ -10,6 +10,9 @@ header {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   background-color: #2a607c;
   color: #ffffff;
+  height: 25vh;
+  display: grid;
+
 }
 header h1 {
   display: inline-block;
@@ -17,21 +20,23 @@ header h1 {
   color: white;
 }
 
-header nav {
+nav {
   padding-top: 15px;
     margin-right: 20px;
     float: right;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 20px;
+    grid-column: 1;
+    grid-row: 1;
 }
 
-header nav ul {
+nav ul {
   list-style-type: none;
   font-size: 16px;
   
 }
 
-header nav ul li {
+nav ul li {
   display: inline-block;
   margin-left: 25px;
   text-decoration:underline;
@@ -95,7 +100,14 @@ header nav ul li {
 }
 
 .paragraph {
+  display: flex;
+  flex-wrap: wrap;
   padding: 44px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .container a {
@@ -114,6 +126,69 @@ header nav ul li {
 .resList {
   list-style-type: none;
 }
+
+footer {
+  justify-content: center;
+}
+
+.footerImg {
+  font-size: 41px;
+  padding: 25px;
+  margin-top: 30px;
+  color: black;
+}
+
+.projectImg {
+  width: 200px;
+  height: 100px;
+}
+
+.projectImage {
+  display: flex;
+  flex-wrap: wrap;
+  width: 350px;
+  height: 250px;
+  padding: 50px;
+
+}
+
+#picture-1 {
+  background-image: url("./images/picture1.jpg");
+}
+
+#picture-2 {
+  background-image: url("./images/picture2.jpeg");
+}
+
+#picture-3 {
+  background-image: url("./images/picture3.jpg");
+}
+
+#picture-4 {
+  background-image: url("./images/picture4.jpg");
+}
+
+#picture-5 {
+  background-image: url("./images/picture5.png");
+}
+
+#picture-6 {
+  background-image: url("./images/picture6.jpg");
+}
+
+#picture-1, #picture-2, #picture-3, #picture-4, #picture-5, #picture-6 {
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 350px;
+}  
+
+.projectName {
+  color: white;
+  background-color: #2a607c;
+}
+
 
 /* header {
   display: flex;
@@ -149,9 +224,12 @@ header h1 {
 
 .container-fluid {
   display: flex;
+  justify-content: center;
   /* padding-top: 70px;
   padding-bottom: 70px; */
 }
+
+
 
 /* .bg-1 {
   background-color: #1abc9c; 

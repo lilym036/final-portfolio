@@ -1,8 +1,10 @@
+import finalResume from '../assets/resume.pdf'
+
 export default function Resume() {
     return (
       <div>
         <h3>Resume</h3>
-        <h4>Download my Resume</h4>
+        <h4>Download my <a href={finalResume}> Resume</a></h4>
         <h5>Front-end Proficiencies</h5>
         <ul className="resList">
          <li>HTML</li>
