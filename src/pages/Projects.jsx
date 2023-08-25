@@ -1,45 +1,24 @@
-// import Img1 from '..../images/screenshot1'
-// import Img2 from '../images/screenshot2'
-
-
+import Img1 from '../images/screenshot1'
+import Img2 from '../images/screenshot2'
+import './App.css'
 
 
 
 export default function Projects() {
+  const images = [Img1, Img2]
   return (
-    <div>
-      <div className="container-fluid bg-3 text-center">
-        <div className="row">
-          <div className="col-sm-3">
-            <p>Some text..</p>
-            {/* <img className= "img img-fluid img-responsive" src= {Img1}/> */}
-          </div>
-          <div className="col-sm-3">
-            <p>Some text..</p>
-            {/* <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"> */}
-          </div>
-        </div>
-      </div><br></br>
-      <div className="container-fluid bg-3 text-center">
-        <div className="row">
-          <div className="col-sm-3">
-            <p>Some text..</p>
-            {/* <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"> */}
-          </div>
-          <div className="col-sm-3">
-            <p>Some text..</p>
-            {/* <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"> */}
-          </div>
-        </div>
-      </div><br></br>
-      <div className="container-fluid bg-3 text-center">
-        <div className="row">
-          <div className="col-sm-3">
-            <p>Some text..</p>
-            {/* <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"> */}
-          </div>
-        </div>
+    <div className="App">
+      <div className="image-container">
+        {
+          images.map((image) =>
+            // eslint-disable-next-line react/jsx-key
+            <div className='image'>
+              <img src={image} alt="" />
+            </div>
+          )
+        }
       </div>
     </div>
+
   );
 }
