@@ -1,11 +1,11 @@
 import NavTabs from "./NavTabs";
 
 
-function Header() {
+function Header(){
 return (
     <div>
     <header>
-        <h1>Lilibeth Mejia</h1>
+        <h1>Lilibeth Neal</h1>
         <NavTabs/>
     </header>
 </div>

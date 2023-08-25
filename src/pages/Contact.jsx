@@ -1,5 +1,5 @@
 import { useState } from 'react';
-// import './style.css';
+
 
 // Imported a helper function that will check if the email is valid
 import {validateEmail } from '../utils/helpers';
@@ -43,36 +43,33 @@ export default function Contact() {
 
 return (
 <div className="container text-center">
-      <form className="form" onSubmit={handleFormSubmit}>
-        <label>Name: <input
-          value={name}
-          name="name"
-          onChange={handleInputChange}
-          type="name"
-          placeholder="Name"
-        /></label>
-        <label>Email address: <input
-          value={email}
-          name="email"
-          onChange={handleInputChange}
-          type="text"
-          placeholder="Email"
-        /></label>
-        <label>Provide a message:<textarea
-          value={message}
-          name="message"
-          onChange={handleInputChange}
-          type="message"
-          placeholder="Provide message"
-        /></label>
-        <button type="submit">Submit</button>
-      </form>
-      {errorMessage && (
+  <br/>
+<h2>Contact</h2>
+<br/>
+<form className="form" onSubmit={handleFormSubmit}>
+  <div className="form-group">
+    <label>Name: 
+    <input value={name} name="name" type="name" className="form-control" id="exampleFormControlInput1" placeholder="Name" onChange={handleInputChange} /> </label>
+  </div>
+  <br/>
+  <div className="form-group">
+    <label>Email: 
+    <input value={email} name= "email" type="email" className="form-control" id="exampleFormControlInput1" placeholder="Email" onChange={handleInputChange} /></label>
+  </div>
+  <br/>
+  <div className="form-group">
+    <label>Provide a message: 
+    <textarea value={message} name="message" type= "message" className="form-control" id="exampleFormControlTextarea1" rows="3" onChange={handleInputChange}></textarea></label>
+  </div>
+  <br/>
+  <button type="submit">Submit</button>
+</form>
+{errorMessage && (
         <div>
           <p className="error-text">{errorMessage}</p>
         </div>
       )}
-    </div>
+</div>
 
 );
 

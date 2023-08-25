@@ -1,6 +1,6 @@
 function Footer() {
   return (
-<footer className="container-fluid text-center">
+<footer className="footer container-fluid text-center">
   <p>Footer Text</p>
 </footer>
   );

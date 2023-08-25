@@ -1,10 +1,10 @@
 export default function Resume() {
     return (
       <div>
-        <h1>Resume</h1>
-        <h2>Download my Resume</h2>
-        <h3>Front-end Proficiencies</h3>
-        <ul>
+        <h3>Resume</h3>
+        <h4>Download my Resume</h4>
+        <h5>Front-end Proficiencies</h5>
+        <ul className="resList">
          <li>HTML</li>
          <li>CSS</li>
          <li>JavaScript</li>
@@ -14,8 +14,8 @@ export default function Resume() {
          <li>Bootstrap</li>
         </ul>
         <br/>
-        <h3>Back-end Proficiencies</h3>
-        <ul>
+        <h5>Back-end Proficiencies</h5>
+        <ul className="resList">
          <li>APIs</li>
          <li>Node</li>
          <li>Express</li>

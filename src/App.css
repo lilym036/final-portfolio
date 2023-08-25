@@ -1,11 +1,121 @@
 #root {
-  /* max-width: 1280px; */
+  max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
 }
 
 header {
+  padding: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: #2a607c;
+  color: #ffffff;
+}
+header h1 {
+  display: inline-block;
+  font-size: 30px;
+  color: white;
+}
+
+header nav {
+  padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+
+header nav ul {
+  list-style-type: none;
+  font-size: 16px;
+  
+}
+
+header nav ul li {
+  display: inline-block;
+  margin-left: 25px;
+  text-decoration:underline;
+  color:pink;
+  cursor: pointer;
+  
+}
+
+.App {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+.image-container{
+      width: 80%;
+      margin-left: 10%;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 5px;
+    }
+    .image-container div:first-child {
+      grid-column-start: 1;
+      grid-column-end: 3;
+    }
+    .image-container div:last-child {
+      grid-row-start: 2;
+      grid-row-end: 5;
+    }
+    .image{
+      width: 100%;
+      height: 300px;
+    }
+    .image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .bg-1 {
+      background-color: #1abc9c; /* Green */
+      color: #ffffff;
+    }
+
+    .bg-2 {
+      background-color: #474e5d; /* Dark Blue */
+      color: #ffffff;
+    }
+
+    h1 {
+      padding: 57px;
+    font-size: 3.2em;
+    line-height: 1.1;
+}
+.img-circle {
+  margin: auto;
+  border-radius: 128px;
+  padding: 15px;
+}
+
+.paragraph {
+  padding: 44px;
+}
+
+.container a {
+    border: 3px solid black;
+    min-height: 150px;
+    max-height: 150px;
+    flex-basis: calc(50% - 1em);
+    margin: 0.5em;
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 20px;
+    background-size: 150%;
+    color:#2a607c;
+}
+
+.resList {
+  list-style-type: none;
+}
+
+/* header {
   display: flex;
   padding: 20px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -20,30 +130,36 @@ header {
 header h1 {
   display: inline-block;
   font-size: 30px;
-  /* background-color: pink; */
+  background-color: pink;
   color:white
 }
 
-header ul {
+.resList {
+  list-style-type: none;
+
+} */
+
+/* header ul {
   padding-top: 15px;
-  /* margin-right: 20px; */
+  margin-right: 20px;
   float: right;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 20px;
-}
+} */
 
 .container-fluid {
-  padding-top: 70px;
-  padding-bottom: 70px;
+  display: flex;
+  /* padding-top: 70px;
+  padding-bottom: 70px; */
 }
 
-.bg-1 {
-  background-color: #1abc9c; /* Green */
+/* .bg-1 {
+  background-color: #1abc9c; 
   color: #ffffff;
 }
 
 .bg-2 {
-  background-color: #474e5d; /* Dark Blue */
+  background-color: #474e5d; 
   color: #ffffff;
 }
 
@@ -69,7 +185,7 @@ header ul {
 .image img {
   width: 100%;
   height: 100%;
-}
+} */
 
 
 /* .logo {
