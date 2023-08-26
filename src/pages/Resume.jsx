@@ -1,5 +1,5 @@
 import finalResume from '../assets/resume.pdf'
-
+// resume imported from assets
 export default function Resume() {
     return (
       <div className="resContainer">

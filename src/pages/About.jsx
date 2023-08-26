@@ -10,7 +10,7 @@ export default function About() {
       <br/>
       </div>
       <div className="container-fluid bg-2 text-center">
-        <h1>About Me</h1>
+        <h1 className="aboutInfo">About Me</h1>
         <p className="paragraph">
           My name is Lilibeth Neal and I am an aspiring web developer. I am so fortunate to have been able to find and be a part of a full-stack coding program that has helped me be well prepared and ready for a career in web deveopment. I currently reside in Texas but am orignially from California. I attended the University of
           California, Irvine (UCI), where I received my undergraduate degree in Psychology and Social

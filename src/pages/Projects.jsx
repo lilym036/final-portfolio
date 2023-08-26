@@ -1,4 +1,5 @@
-
+// images are background images through css
+// links to deployed links or video demosntration if it is a backend project 
 export default function Projects() {
     return (
         <div className="container">

@@ -40,7 +40,7 @@ nav ul li {
   display: inline-block;
   margin-left: 25px;
   text-decoration:underline;
-  color:pink;
+  color:black;
   cursor: pointer;
   
 }
@@ -95,7 +95,7 @@ nav ul li {
 }
 .img-circle {
   margin: auto;
-  border-radius: 128px;
+  border-radius: 45px;
   padding: 15px;
 }
 
@@ -204,6 +204,14 @@ footer {
   font-weight: bold;
 }
 
+.intro {
+  font-weight: bolder;
+  font-size: 40px;
+}
+
+.aboutInfo {
+  font-size: 35px;
+}
 
 /* header {
   display: flex;
