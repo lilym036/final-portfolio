@@ -2,10 +2,12 @@ import finalResume from '../assets/resume.pdf'
 
 export default function Resume() {
     return (
-      <div>
-        <h3>Resume</h3>
-        <h4>Download my <a href={finalResume}> Resume</a></h4>
-        <h5>Front-end Proficiencies</h5>
+      <div className="resContainer">
+        <h3 className="resTitle">Resume</h3>
+        <br/>
+        <h5>Download my <a href={finalResume}> Resume</a></h5>
+        <br/>
+        <h6 className= "resSubTitle">Front-end Proficiencies</h6>
         <ul className="resList">
          <li>HTML</li>
          <li>CSS</li>
@@ -16,7 +18,7 @@ export default function Resume() {
          <li>Bootstrap</li>
         </ul>
         <br/>
-        <h5>Back-end Proficiencies</h5>
+        <h6 className= "resSubTitle">Back-end Proficiencies</h6>
         <ul className="resList">
          <li>APIs</li>
          <li>Node</li>
