@@ -42,11 +42,12 @@ export default function Contact() {
 };
 
 return (
+<div>
+  <h2 className="formTitle">Contact</h2>
 <div className="container text-center">
   <br/>
-<h2>Contact</h2>
 <br/>
-<form className="form" onSubmit={handleFormSubmit}>
+<br/><form className="form" onSubmit={handleFormSubmit}>
   <div className="form-group">
     <label>Name: 
     <input value={name} name="name" type="name" className="form-control" id="exampleFormControlInput1" placeholder="Name" onChange={handleInputChange} /> </label>
@@ -70,7 +71,7 @@ return (
         </div>
       )}
 </div>
-
+</div>
 );
 
 }

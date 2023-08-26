@@ -1,12 +1,3 @@
-// eslint-disable-next-line no-unused-vars
-// import React from 'react'
-// import Pic1 from "../images/picture1.jpg"
-// import Pic2 from "../images/picture2.jpeg"
-// import Pic3 from "../images/picture3.jpg"
-// import Pic4 from "../images/picture4.jpg"
-// import Pic5 from "../images/picture5.png"
-// import Pic6 from "../images/picture6.jpg"
-
 
 export default function Projects() {
     return (

@@ -5,8 +5,8 @@ function Header(){
 return (
     <div>
     <header>
+    <h1>Lilibeth Neal</h1>
     <NavTabs/>
-        <h1>Lilibeth Neal</h1>
     </header>
 </div>
 
