@@ -19,8 +19,7 @@ The link below is the link to the deployed application. The project contains a n
 
 ![alt text](./public/screenshot1.png)
 
-https://dreamy-unicorn-03d0df.netlify.app/
-
+https://lilibeth-profile.netlify.app/
 
 ## Credits
 React: https://react.dev/
