@@ -6,9 +6,6 @@ This application was created to organize a web developer's information into a po
 
 
 ## Table of Contents
-
-If your README is long, add a table of contents to make it easy for users to find what they need.
-
 - [Installation](#installation)
 - [Usage](#usage)
 - [Credits](#credits)
@@ -22,12 +19,11 @@ The link below is the link to the deployed application. The project contains a n
 
 ![alt text](./public/screenshot1.png)
 
-https://dreamy-unicorn-03d0df.netlify.app/
-
+https://lilibeth-profile.netlify.app/
 
 ## Credits
 React: https://react.dev/
-Boostrap: https://getbootstrap.com/
+<br/>Boostrap: https://getbootstrap.com/
 
 ## License
 MIT License
