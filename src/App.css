@@ -15,25 +15,28 @@ header {
 
 }
 
-header h1 {
+/* header h1 {
   display: inline-block;
   font-size: 30px;
   color: white;
-}
+} */
 
 nav {
   padding-top: 15px;
   margin-right: 20px;
   float: right;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
   font-size: 20px;
   grid-column: 1;
   grid-row: 1;
+  background-color: lightblue;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 nav ul {
   list-style-type: none;
-  font-size: 16px;
 
 }
 
@@ -43,6 +46,9 @@ nav ul li {
   text-decoration: underline;
   color: black;
   cursor: pointer;
+  font-family: 'Lora', serif;
+  font-family: 'Playfair Display', serif;
+  font-size: 18px;
 
 }
 
@@ -186,4 +192,24 @@ footer {
 
 .aboutInfo {
   font-size: 35px;
+  font-family: 'Lora', serif;
+  font-family: 'Playfair Display', serif;
+
+}
+
+.frontBack {
+  display: flex;
+  flex-direction: column;
+}
+
+.resList {
+  list-style-type: circle;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  margin: auto;
+}
+
+nav a:visited, .ending a:link, .ending a:visited {
+  color: black;
 }

@@ -17,6 +17,7 @@ export default function About() {
           Behavior. I then attended Texas State University, where I obtained my masters degreee in school
           psychology. I have been a school psychologist for the past 4 years. However, I am beyond excited and ready to pursue
           a career in web development. </p>
+          <p className="paragraph">This September 2023, I graduated with a Full Stack Web Development Certificate from Southern Methodist University(SMU). During my time at SMU, I learned various front end and back end technologies. Please visit the 'Resume' tab in the navigation bar to get additional information on specific technologies learned. My GitHub and LinkedIn profiles are linked in the footer if you would like to view some of my work. Also please feel free to reach out if you have any questions.</p>
       </div>
     </div>
   );
