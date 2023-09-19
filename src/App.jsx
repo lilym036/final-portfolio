@@ -1,22 +1,28 @@
-import { Outlet } from 'react-router-dom';
-// import Header from './components/Header'
-// import Nav from './components/NavTabs';
-import Footer from './components/Footer'
-import './App.css'
-import NavTabs from './components/NavTabs';
+// eslint-disable-next-line no-unused-vars
+import React from 'react'
+import Header from './components/Header/Header'
+import Nav from './components/Nav/Nav'
+import About from './components/About/About'
+import Experience from './components/Experience/Experience'
+import Portfolio from './components/Portfolio/Portfolio'
+import Contact from './components/Contact/Contact'
+import Footer from './components/Footer/Footer'
+import './index.css';
 
-function App() {
-  // The Outlet component will conditionally swap between the different pages according to the URL
+const App = () => {
   return (
-    <>
-      <NavTabs />
-      <main>
-        <Outlet />
-      </main>
-      <Footer />
-    </>
-  );
+   <>
+    <Header />
+    <Nav />
+    <About />
+    <Experience />
+    <Portfolio />
+    <Contact />
+    <Footer />
+   
+   </>
+  )
 }
 
-export default App;
+export default App
 
