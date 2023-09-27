@@ -23,7 +23,7 @@ https://lilibeth-profile.netlify.app/
 
 ## Credits
 React: https://react.dev/
-<br/>Boostrap: https://getbootstrap.com/
+<br>Shoutout to Egator: https://www.youtube.com/watch?v=G-Cr00UYokU
 
 ## License
 MIT License
