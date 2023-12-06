@@ -38,7 +38,7 @@ const About = () => {
           </article> */}
           </div>
           <p>
-            Aspiring Full Stack Web Developer with a background in Psychology and life-long dedication to learning. Effective at combining creativity and problem solving to develop user-friendly applications. Known among staff for attention to detail, collaboration, strong communication and for being conscientious and determined. Ability to work in a fast-paced and diverse team environment developing solutions and exceeding expectations.
+            I am a Full Stack Web Developer with a background in Psychology and life-long dedication to learning. Effective at combining creativity and problem solving to develop user-friendly applications. Known among staff for attention to detail, collaboration, strong communication and for being conscientious and determined. Ability to work in a fast-paced and diverse team environment developing solutions and exceeding expectations.
           </p>
           <p>
             I have experience in both frontend and backend technologies. I am currently working on enhancing my fullstack skillset. Please contact me if you have any questions or would like to know more about my projects.
