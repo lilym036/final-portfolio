@@ -14,7 +14,7 @@ const data= [
     image: IMG1,
     title: 'BookItBash',
     github: 'https://github.com/lilym036/BookItBash',
-    demo: 'https://infinite-sea-02466-0f0f4ed955bc.herokuapp.com/'
+    demo: 'https://still-everglades-63170-224d574b2b5f.herokuapp.com/'
   
   },
   {
