@@ -46,7 +46,7 @@ const data= [
     image: IMG5,
     title: 'README Generator',
     github: 'https://github.com/lilym036/README-generator',
-    demo: 'https://github.com/lilym036/README-generator'
+    demo: 'https://drive.google.com/file/d/18fa0vCSbyXQggGjM8ZczqHRbAWlkniBs/view'
   
   },
   {

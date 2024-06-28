@@ -19,7 +19,7 @@ const Footer = () => {
 
       <div className='footer_socials'>
         <a href='https://github.com/lilym036'><FaGithub /></a>
-        <a href='www.linkedin.com/in/lilibeth-neal-19820a283'><AiOutlineLinkedin /></a>
+        <a href='https://www.linkedin.com/in/lilibeth-neal-19820a283/'><AiOutlineLinkedin /></a>
       </div>
     </footer>
   )
