@@ -12,9 +12,9 @@ const data= [
   {
     id: 1,
     image: IMG1,
-    title: 'BookItBash',
-    github: 'https://github.com/lilym036/BookItBash',
-    demo: 'https://still-everglades-63170-224d574b2b5f.herokuapp.com/'
+    title: 'Wheel of Fortune Game',
+    github: 'https://github.com/lilym036/wheel-of-fortune',
+    demo: 'https://drive.google.com/file/d/1D2MKNRlwfdZKZbwMOlfpeXlDInl1keWp/view'
   
   },
   {
