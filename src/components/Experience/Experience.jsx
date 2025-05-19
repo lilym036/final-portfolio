@@ -76,13 +76,19 @@ const Experience = () => {
             <article className='experience_details'>
               <BsFillPatchCheckFill className='experience_details-icon' />
               <div>
-                <h4>Sequelize</h4>
+                <h4>C#</h4>
               </div>
             </article>
             <article className='experience_details'>
               <BsFillPatchCheckFill className='experience_details-icon' />
               <div>
                 <h4>GraphQL</h4>
+              </div>
+            </article>
+            <article className='experience_details'>
+              <BsFillPatchCheckFill className='experience_details-icon' />
+              <div>
+                <h4>Python</h4>
               </div>
             </article>
           </div>
