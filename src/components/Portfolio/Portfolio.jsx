@@ -28,9 +28,9 @@ const data= [
   {
     id: 3,
     image: IMG3,
-    title: 'Refresh',
-    github: 'https://github.com/lilym036/REFRESH',
-    demo: 'https://warm-escarpment-43511-eebbbc135796.herokuapp.com/'
+    title: 'Battleship Game',
+    github: 'https://github.com/lilym036/Battleship',
+    demo: 'https://drive.google.com/file/d/1eUFBwLAM8PQjXf9sbfVoZNd1o6SS3BHv/view'
   
   },
   {
